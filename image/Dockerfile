@@ -1,4 +1,4 @@
-FROM liferay/portal:7.4.3.67-ga67
+FROM liferay/portal:7.4.3.112-ga112
 USER root
 COPY tzdata_2023d-1_all.deb /tmp/
 RUN dpkg -i /tmp/tzdata_2023d-1_all.deb

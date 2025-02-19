@@ -55,7 +55,7 @@ services:
   elsdesafio:
     container_name: elsdesafio-container
     restart: always
-    image: elasticsearch:7.16.3
+    image: elasticsearch:7.17.14
     environment:
       - 'ES_JAVA_OPTS=-Xms${ES_HEAP_SIZE:-2g} -Xmx${ES_HEAP_SIZE:-2g}'
     ports:
