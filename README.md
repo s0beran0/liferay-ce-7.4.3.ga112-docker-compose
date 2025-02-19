@@ -14,7 +14,7 @@ git clone https://github.com/s0beran0/liferay-ce-7.4.3.ga112-docker-compose.git
 ```
 and
 ```bash
-cd liferay-ce-7.4.3.ga67-docker-compose/
+cd liferay-ce-7.4.3.ga112-docker-compose/
 ```
 
 ### System Dependencies
